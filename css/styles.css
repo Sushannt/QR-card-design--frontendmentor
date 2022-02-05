@@ -1,1 +1,61 @@
+body{
+    background: hsl(212, 45%, 89%);
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+}
 
+/* The CARD */
+.card{
+    border-radius: 10px;
+    background: #fff;
+    max-width: 300px;
+    padding: 15px 15px;
+    font-family: "Outfit";
+    margin: auto;
+}
+
+/* the divs inside the CARD */
+.card>div{
+    text-align: center;
+}
+
+/* the image section of the card - the div */
+.card .qr-img{
+    width: 100%;
+}
+
+/* the qr-code image in the qr-image section of the card */
+.card .qr-img .qr-code{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* the div with the heading and paragraph */
+.text{
+    padding: 0 10px;
+}
+
+/* heading section */
+.text>h2{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+/* paragraph section */
+.text>p{
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution 
+{ 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a 
+{ 
+    color: hsl(228, 45%, 44%); 
+}
